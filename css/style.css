@@ -33,9 +33,6 @@ header {
     width: 100%;
     height: flex;
     background-color: #79B4C1;
-    padding: 0em;
-    margin-top: 0em;
-    padding: 0em;
     
 }
 .container-fluid {
@@ -50,7 +47,6 @@ header {
 .image-post {
     padding-top: 1em;
     padding-bottom: 1em;
-    
 }
 .image-post p {
     font-size: 2em;
@@ -63,6 +59,8 @@ header {
     padding: 0em;
     border-top: 2px;
     border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
     border-style: solid;
     border-color: black;
     display: flex;
@@ -138,6 +136,8 @@ header {
         padding-bottom: 1em;
         border-top: 2px;
         border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
         border-style: solid;
         border-color: black;
     }
@@ -172,4 +172,3 @@ header {
     }
     
 }
-
