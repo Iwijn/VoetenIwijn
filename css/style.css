@@ -110,6 +110,9 @@ header {
     line-height: 3em;
     width: 12em;
 }
+.panel-default {
+    margin: 2em;
+}
 @media only screen and (max-width: 580px) and (min-width: 351px){
     .page-header h1 {
         font-size: 5em;
