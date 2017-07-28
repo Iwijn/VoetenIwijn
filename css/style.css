@@ -1,0 +1,172 @@
+header {
+    background-color: #79B4C1;
+}
+.page-header {
+    margin-top: -1.45em;
+}
+.page-header h1{
+    font-family: "Freckle Face", sans-serif;
+    font-size: 8em;
+    color: #0E4855;
+}
+.page-header h2{
+    font-family: "Indie Flower" ,sans-serif;
+}
+.nav-tabs {
+    text-align:center;
+    background-color: #79B4C1;
+    margin-top: -1.45em;
+}
+.nav-tabs > li {
+    float: none;
+    display:inline-block;
+}
+.info {
+    margin: 1em; 
+}
+.info-text {
+    text-align: center;
+    font-size: 2em;
+}
+
+.content {
+    width: 100%;
+    height: flex;
+    background-color: #79B4C1;
+    padding: 0em;
+    margin-top: 0em;
+    padding: 0em;
+    
+}
+.container-fluid {
+    padding: 0em;
+}
+.content img {
+   width: 100%;
+}
+.row {
+    display:grid;
+}
+.image-post {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+.image-post p {
+    font-size: 2em;
+}
+
+.center {
+    text-align: center;
+}
+.display-content {
+    padding: 0em;
+    border-top: 2px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.upload-image {
+    text-align: center;
+    background-color: #79B4C1;
+    padding-top: 0.5em;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-bottom: 0.5em;
+}
+.upload-text {
+    text-align: center;
+    background-color: #79B4C1;
+    padding-top: 0.5em;
+    border-bottom: 2px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding-bottom: 0.5em;
+}
+.upload-input-text {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    max-width: 500px;
+    text-align: center;
+}
+#UploadFile {
+    margin: auto;
+}
+.upload-button-div {
+    text-align: center;
+    margin: 0em;
+}
+.btn-lg {
+    border-width: 1px 1px 1px;
+    line-height: 3em;
+    width: 12em;
+}
+@media only screen and (max-width: 580px) and (min-width: 351px){
+    .page-header h1 {
+        font-size: 5em;
+    }
+    .page-header h2 {
+        font-size: 2.5em; 
+    }
+}
+@media only screen and (max-width: 350px) {
+    .page-header h1 {
+        font-size: 3em;
+    }
+    .page-header h2 {
+        font-size: 1.5em; 
+    }
+}
+@media only screen and (max-width: 770px) {
+    .image-post {
+        width: 100%;
+    }
+    .image-post {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        border-top: 2px;
+        border-bottom: 0px;
+        border-style: solid;
+        border-color: black;
+    }
+    .display-content {
+        padding: 0em;
+        border-top: 0px;
+        border-bottom: 0px;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .upload-section {
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+    .upload-image {
+        border: 2px;
+        border-style: solid;
+        border-color: black;
+        background-color: #79B4C1;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        padding-bottom: 0.5em;
+    }
+    .upload-text {
+        border: 2px;
+        border-style: solid;
+        border-color: black;
+        background-color: #79B4C1;
+        border-radius: 5px;
+        margin-bottom: 1em;
+        padding-bottom: 0.5em;
+    }
+    
+}
+
